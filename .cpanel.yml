@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nexatestwp/public_html/foranequinenew/wp-content/themes/
+    - /bin/cp * $DEPLOYPATH
