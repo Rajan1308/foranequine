@@ -1,0 +1,694 @@
+{
+    "key": "group_630c78e5bb250",
+    "title": "Nutritional Hub",
+    "fields": [
+        {
+            "key": "field_630c78f6bc76a",
+            "label": "",
+            "name": "nutritional_hub",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_630c78fae2e31": {
+                    "key": "layout_630c78fae2e31",
+                    "name": "research_excellence",
+                    "label": "Research Excellence",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_630dcd709001a",
+                            "label": "Title Color",
+                            "name": "title_color",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 1,
+                            "ui": 1,
+                            "ui_on_text": "Dark",
+                            "ui_off_text": "Theme Color"
+                        },
+                        {
+                            "key": "field_630c8af29e372",
+                            "label": "Title",
+                            "name": "re_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_630c8b049e373",
+                            "label": "Sub Title",
+                            "name": "re_sub_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_630c8b1a9e374",
+                            "label": "Content Block",
+                            "name": "re_content_block",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_630c8b2e9e375",
+                            "label": "Image Top",
+                            "name": "re_image_top",
+                            "type": "image",
+                            "instructions": "Image Size: 531 by 699 pixels",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_630c8b3b9e376",
+                            "label": "Second Image",
+                            "name": "re_second_image",
+                            "type": "image",
+                            "instructions": "Image Size: 531 by 699 pixels",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_630c8c4598df2": {
+                    "key": "layout_630c8c4598df2",
+                    "name": "nutritional_articles",
+                    "label": "Nutritional Articles",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_630c8c6d98df6",
+                            "label": "Background Image",
+                            "name": "na_background_image",
+                            "type": "image",
+                            "instructions": "Image Size: 1920 by 794 pixels",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_630c8c4998df3",
+                            "label": "Title",
+                            "name": "na_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_630c8c5a98df4",
+                            "label": "Short Description",
+                            "name": "na_short_description",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_630c8c6498df5",
+                            "label": "CTAs",
+                            "name": "na_ctas",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_630c8c8b98df8": {
+                    "key": "layout_630c8c8b98df8",
+                    "name": "expert_nutritional_team",
+                    "label": "Expert Nutritional Team",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_630c8c8b98df9",
+                            "label": "Background Image",
+                            "name": "ent_background_image",
+                            "type": "image",
+                            "instructions": "Image Size: 1920 by 794 pixels",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_630c8c8b98dfa",
+                            "label": "Title",
+                            "name": "ent_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_630c8c8b98dfb",
+                            "label": "Short Description",
+                            "name": "ent_short_description",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_630c8c8b98dfc",
+                            "label": "CTAs",
+                            "name": "ent_ctas",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_630c8ca698dfd": {
+                    "key": "layout_630c8ca698dfd",
+                    "name": "nutritional_videos",
+                    "label": "Nutritional Videos",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_630c8ca698dfe",
+                            "label": "Background Image",
+                            "name": "nv_background_image",
+                            "type": "image",
+                            "instructions": "Image Size: 1920 by 794 pixels",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_630c8ca698dff",
+                            "label": "Title",
+                            "name": "nv_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_630c8ca698e00",
+                            "label": "Short Description",
+                            "name": "nv_short_description",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_630c8ca698e01",
+                            "label": "CTAs",
+                            "name": "nv_ctas",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_630c8cd798e02": {
+                    "key": "layout_630c8cd798e02",
+                    "name": "ask_our_experts",
+                    "label": "Ask Our Experts",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_630c8cd798e03",
+                            "label": "Background Image",
+                            "name": "aoe_background_image",
+                            "type": "image",
+                            "instructions": "Image Size: 1920 by 794 pixels",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_630c8cd798e04",
+                            "label": "Title",
+                            "name": "aoe_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_630c8cd798e05",
+                            "label": "Short Description",
+                            "name": "aoe_short_description",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_630c8cd798e06",
+                            "label": "CTAs",
+                            "name": "aoe_ctas",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_630de1dd6251b": {
+                    "key": "layout_630de1dd6251b",
+                    "name": "nutritional_team_block",
+                    "label": "Nutritional Team Block",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_630de1e96251c",
+                            "label": "Title",
+                            "name": "cb_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_630de1f16251d",
+                            "label": "Content Editer",
+                            "name": "cb_content_editer",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_630ef688e3a0a": {
+                    "key": "layout_630ef688e3a0a",
+                    "name": "enquiry_cta_block",
+                    "label": "Enquiry CTA Block",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_630ef697e3a0b",
+                            "label": "Background Image",
+                            "name": "eca_background_image",
+                            "type": "image",
+                            "instructions": "Image Size: 1920 by 794 pixels",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_630ef6a7e3a0c",
+                            "label": "Title",
+                            "name": "eca_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_630ef6aee3a0d",
+                            "label": "Content Block",
+                            "name": "eca_content_block",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_630ef6fce3a0e",
+                            "label": "Form",
+                            "name": "eca_form",
+                            "type": "cf7",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "allow_null": 1,
+                            "multiple": 0,
+                            "disable": [
+                                "0"
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_630f166e795b5": {
+                    "key": "layout_630f166e795b5",
+                    "name": "nutritional_listing",
+                    "label": "Nutritional Listing",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_630f167f795b6",
+                            "label": "Title",
+                            "name": "nl_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Component",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/nutritional-hub.php"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1661933195
+}

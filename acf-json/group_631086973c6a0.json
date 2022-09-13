@@ -1,0 +1,200 @@
+{
+    "key": "group_631086973c6a0",
+    "title": "News Detials",
+    "fields": [
+        {
+            "key": "field_6310869753ffa",
+            "label": "",
+            "name": "nutritional_hub_post",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_630f028167d40": {
+                    "key": "layout_630f028167d40",
+                    "name": "full_width_image",
+                    "label": "Full Width Image Block",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_631086975f7c5",
+                            "label": "Image",
+                            "name": "fwi_image",
+                            "type": "image",
+                            "instructions": "Image Size: 1755 by 689 pixels",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_631086976323f",
+                            "label": "Content",
+                            "name": "fwi_content",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_630f06c9e449f": {
+                    "key": "layout_630f06c9e449f",
+                    "name": "image_with_content_block",
+                    "label": "Image With Content Block",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6310869766cc7",
+                            "label": "Image With Content",
+                            "name": "image_with_content",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "row",
+                            "button_label": "Add More",
+                            "sub_fields": [
+                                {
+                                    "key": "field_631086977d820",
+                                    "label": "Content Block",
+                                    "name": "iwccb_content_block",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 0,
+                                    "delay": 0
+                                },
+                                {
+                                    "key": "field_63108697812ab",
+                                    "label": "Featured Image",
+                                    "name": "iwccb_featured_image",
+                                    "type": "image",
+                                    "instructions": "Image Size: 555 by 582 pixels",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "medium",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_630f0c543745e": {
+                    "key": "layout_630f0c543745e",
+                    "name": "full_width_content",
+                    "label": "Full Width Content",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_631086976a76c",
+                            "label": "Content Block",
+                            "name": "fwc_content_block",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 0,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Component",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1662027436
+}

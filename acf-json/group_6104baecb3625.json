@@ -1,0 +1,433 @@
+{
+    "key": "group_6104baecb3625",
+    "title": "Stockists Post Type Options",
+    "fields": [
+        {
+            "key": "field_6104bb90c6c45",
+            "label": "Stockists Details",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_6104bbefc6c46",
+            "label": "Link",
+            "name": "rd_stockists_link",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6104bc0fc6c47",
+            "label": "Email",
+            "name": "rd_stockists_email",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6104bc3cc6c48",
+            "label": "Phone",
+            "name": "rd_stockists_phone",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6104bc52c6c49",
+            "label": "Address Line 1",
+            "name": "rd_stockists_address_line_1",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6104bc65c6c4a",
+            "label": "Address Line 2",
+            "name": "rd_stockists_address_line_2",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6104bc79c6c4b",
+            "label": "Address Line 3",
+            "name": "rd_stockists_address_line_3",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6104bc9dc6c4d",
+            "label": "Postcode",
+            "name": "rd_stockists_postcode",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6104bcb6c6c4e",
+            "label": "Country",
+            "name": "rd_stockists_country",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Ireland": "Ireland",
+                "UK": "UK"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6104bc87c6c4c",
+            "label": "County - Ireland",
+            "name": "rd_stockists_county_ir",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6104bcb6c6c4e",
+                        "operator": "==",
+                        "value": "Ireland"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Co Carlow": "Co Carlow",
+                "Co Antrim": "Co Antrim",
+                "Co Armagh": "Co Armagh",
+                "Co Cavan": "Co Cavan",
+                "Co Clare": "Co Clare",
+                "Co Cork": "Co Cork",
+                "Co Derry": "Co Derry",
+                "Co Donegal": "Co Donegal",
+                "Co Down": "Co Down",
+                "Co Dublin": "Co Dublin",
+                "Co Fermanagh": "Co Fermanagh",
+                "Co Galway": "Co Galway",
+                "Co Kerry": "Co Kerry",
+                "Co Kildare": "Co Kildare",
+                "Co Kilkenny": "Co Kilkenny",
+                "Co Laois": "Co Laois",
+                "Co Leitrim": "Co Leitrim",
+                "Co Limerick": "Co Limerick",
+                "Co Londonderry": "Co Londonderry",
+                "Co Longford": "Co Longford",
+                "Co Louth": "Co Louth",
+                "Co Mayo": "Co Mayo",
+                "Co Meath": "Co Meath",
+                "Co Monaghan": "Co Monaghan",
+                "Co Offaly": "Co Offaly",
+                "Co Roscommon": "Co Roscommon",
+                "Co Sligo": "Co Sligo",
+                "Co Tipperary": "Co Tipperary",
+                "Co Tyrone": "Co Tyrone",
+                "Co Waterford": "Co Waterford",
+                "Co Westmeath": "Co Westmeath",
+                "Co Wexford": "Co Wexford",
+                "Co Wicklow": "Co Wicklow",
+                "Downpatrick": "Downpatrick",
+                "Enniskillen": "Enniskillen",
+                "Fermanagh": "Fermanagh"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6108b09beda5c",
+            "label": "County - UK",
+            "name": "rd_stockists_county_uk",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6104bcb6c6c4e",
+                        "operator": "==",
+                        "value": "UK"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Aberdeenshire": "Aberdeenshire",
+                "Anglesey": "Anglesey",
+                "Ayrshire": "Ayrshire",
+                "Berkshire": "Berkshire",
+                "Berwickshire": "Berwickshire",
+                "Buckinghamshire": "Buckinghamshire",
+                "Cambridgeshire": "Cambridgeshire",
+                "Carmarthenshire": "Carmarthenshire",
+                "Ceredigion": "Ceredigion",
+                "Cheshire": "Cheshire",
+                "Conwy": "Conwy",
+                "County Durham": "County Durham",
+                "Cumbria": "Cumbria",
+                "Denbighshire": "Denbighshire",
+                "Devon": "Devon",
+                "Dorset": "Dorset",
+                "Durham": "Durham",
+                "East Sussex": "East Sussex",
+                "East Yorkshire": "East Yorkshire",
+                "Essex": "Essex",
+                "Fife": "Fife",
+                "Gloucestershire": "Gloucestershire",
+                "Gwent": "Gwent",
+                "Gwynedd": "Gwynedd",
+                "Hampshire": "Hampshire",
+                "Herefordshire": "Herefordshire",
+                "Invernessshire": "Invernessshire",
+                "Isle of Anglesey": "Isle of Anglesey",
+                "Kent": "Kent",
+                "Lanarkshire": "Lanarkshire",
+                "Lancashire": "Lancashire",
+                "Leicestershire": "Leicestershire",
+                "Lincolnshire": "Lincolnshire",
+                "Mid Glamorgan": "Mid Glamorgan",
+                "Midlothian": "Midlothian",
+                "Monmouthshire": "Monmouthshire",
+                "North Lincolnshire": "North Lincolnshire",
+                "North Yorkshire": "North Yorkshire",
+                "Northumbria": "Northumbria",
+                "Nottinghamshire": "Nottinghamshire",
+                "Oxfordshire": "Oxfordshire",
+                "Pembrokeshire": "Pembrokeshire",
+                "Perth and Kinross": "Perth and Kinross",
+                "Perthshire": "Perthshire",
+                "Powys": "Powys",
+                "Roxburghshire": "Roxburghshire",
+                "Scottish Borders": "Scottish Borders",
+                "Shropshire": "Shropshire",
+                "Somerset": "Somerset",
+                "South Yorkshire": "South Yorkshire",
+                "Staffordshire": "Staffordshire",
+                "Suffolk": "Suffolk",
+                "Surrey": "Surrey",
+                "Sussex": "Sussex",
+                "Warwickshire": "Warwickshire",
+                "West Midlands": "West Midlands",
+                "West Sussex": "West Sussex",
+                "Wiltshire": "Wiltshire",
+                "Worcestershire": "Worcestershire"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6104bd0ac6c4f",
+            "label": "Location_lat",
+            "name": "rd_stockists_location_lat",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6104bd1fc6c50",
+            "label": "Location_lng",
+            "name": "rd_stockists_location_lng",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6104bdf752667",
+            "label": "Stockists Description",
+            "name": "stockists_description",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_6104c8df14dcd",
+            "label": "Location",
+            "name": "location",
+            "type": "google_map",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "center_lat": "",
+            "center_lng": "",
+            "zoom": "",
+            "height": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "stockists"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "modified": 1662441772
+}
